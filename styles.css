@@ -152,7 +152,10 @@ body > header {
     position: fixed;
     width: 100%;
 }
-
+.main {
+    align-items: center !important;
+    
+}
 .header-nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -161,7 +164,7 @@ body > header {
     background: linear-gradient(var(--clr-background), var(--clr-background-transparent));
 }
 
-.header-nav > .link-container svg {
+.header-nav > .link-contiainer svg {
     height: var(--dm-0100);
     width: auto;
 }
